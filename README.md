@@ -1,5 +1,32 @@
 # Redis Native C/C++ | POF (non-optimize)
 
+Connection
+```c
+void connection() {
+	struct timeval timeout = { 2, 500000 }; // 2.5 segundos
+	c = redisConnectWithTimeout(hostname, port, timeout);
+	if (c == NULL || c->err) {
+		if (c) {
+			printf("Connection error: %s\n", c->errstr);
+			redisFree(c);
+		}
+		else 
+			printf("Connection error: can't allocate redis context\n");
+		
+		exit(1);
+	}
+}
+```
+
+Runnable
+```c
+void threadRun(_In_ _beginthread_proc_type _StartAddress) {
+	HANDLE hThread;
+	hThread = (HANDLE)_beginthread(_StartAddress, 0, NULL);
+	WaitForSingleObject(hThread, INFINITE);
+}
+```
+
 Producer
 ```c
 void producer(void *param) {
