@@ -98,4 +98,4 @@ void consumer(void *param) {
 ```
 
 # References
-  * http://antsnote.club/2019/02/16/Redis-Redis%E5%88%97%E8%A1%A8/
+  * [Commands](http://antsnote.club/2019/02/16/Redis-Redis%E5%88%97%E8%A1%A8/)
