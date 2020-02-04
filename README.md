@@ -97,5 +97,14 @@ void consumer(void *param) {
 }
 ```
 
+Laptop
+```
+Macbook (2014) w/ Bootcamp
+Intel(R) Core(TM) i5-3210M
+CPU @ 2.50GHz 2.49GHz
+16 GB RAM
+System x64
+```
+
 # References
   * [Commands](http://antsnote.club/2019/02/16/Redis-Redis%E5%88%97%E8%A1%A8/)
