@@ -119,3 +119,5 @@ System x64
 # References
   * [Commands](http://antsnote.club/2019/02/16/Redis-Redis%E5%88%97%E8%A1%A8/)
   * [Performance](https://github.com/vicboma1/Redis-Native-Producer-Consumer-Performance-Testing)
+  * [Bufferedis - Asynchronous Fork](https://github.com/vicboma1/bufferedis)
+
